@@ -2,13 +2,13 @@
 
 ## Lista de Arrays e Strings:
 
-![Lista Array e String](https://github.com/johnesthomas/exercicios-string-repeticao-condicionais/blob/master/lista-arrays-string.jpg)
+![Lista Array e String](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-arrays-string.jpg)
 
 ## Lista de Comandos de Repetição:
 
-![Lista Comandos de Repetição](https://github.com/johnesthomas/exercicios-string-repeticao-condicionais/blob/master/lista-comandos-de-repeticao.jpg)
+![Lista Comandos de Repetição](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-comandos-de-repeticao.jpg)
 
 ## Lista de Condicionais:
 
-![Lista Condicionais parte 1](https://github.com/johnesthomas/exercicios-string-repeticao-condicionais/blob/master/lista-condicionais-part1.jpg)
-![Lista Condicionais parte 2](https://github.com/johnesthomas/exercicios-string-repeticao-condicionais/blob/master/lista-condicionais-part2.jpg)
+![Lista Condicionais parte 1](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-condicionais-part1.jpg)
+![Lista Condicionais parte 2](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-condicionais-part2.jpg)
