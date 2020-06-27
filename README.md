@@ -12,3 +12,11 @@
 
 ![Lista Condicionais parte 1](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-condicionais-part1.jpg)
 ![Lista Condicionais parte 2](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-condicionais-part2.jpg)
+
+## Lista de Matrizes:
+
+![Lista Matrizes](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-matrizes.jpg)
+
+## Lista de Vetores:
+
+![Lista Vetores](https://github.com/johnesthomas/exercicios-logica-de-programacao/blob/master/imagens-lista/lista-vetores.jpg)
