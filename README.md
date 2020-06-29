@@ -1,4 +1,4 @@
-# Lista de Exercícios para Lógica de Programação - 1º Período
+# Lista de Exercícios para Lógica de Programação
 
 ## Lista de Arrays e Strings:
 
