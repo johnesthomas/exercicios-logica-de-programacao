@@ -14,10 +14,49 @@ public class Exercicio02 {
 		 * modificada
 		 */
 
-		Scanner input = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
-		input.close();
+		double[][] mat = new double[3][6];
+		double somaColImpar = 0;
+		double somaColPar = 0;
+		double media = 0;
+		int cont = 0;
 
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) { // a condição: "mat[i].length", pega o tamanho do array na posição
+														// i, ou seja, na posição "i", o array tem o tamanho(length) "6".
+				mat[i][j] = sc.nextDouble();
+
+				if (j % 2 != 0) {
+					somaColImpar += mat[i][j];
+				} else {
+					somaColPar += mat[i][j];
+					cont++;
+				}
+			}
+		}
+
+		// (a)
+		System.out.printf("Soma de todos os elementos das colunas ímpares: %.2f%n", somaColImpar);
+
+		// (b)
+		media = somaColPar / cont;
+		System.out.printf("Media aritmética dos elementos da segunda e quarta colunas: %.2f%n", media);
+
+		// (c)
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				mat[i][5] = mat[i][0] + mat[i][1];
+			}
+		}
+
+		// (d)
+		for (int i = 0; i < mat.length; i++) {
+			System.out.println();
+			for (int j = 0; j < mat[i].length; j++) {
+				System.out.print(mat[i][j] + "\t");
+			}
+		}
+		sc.close();
 	}
-
 }
