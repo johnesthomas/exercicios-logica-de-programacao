@@ -20,7 +20,7 @@ public class Exercicio01 {
 
 		Scanner sc = new Scanner(System.in);
 
-		int[][] aluno = new int[3][4];
+		int[][] aluno = new int[5][4];
 		int notaFinal = 0;
 		int alunoMelhorNota = 0;
 		int somaNotasFinais = 0;
@@ -32,11 +32,10 @@ public class Exercicio01 {
 			for (int j = 0; j < aluno[i].length - 1; j++) {
 				aluno[i][j] = sc.nextInt();
 			}
-		}
-		for (int i = 0; i < aluno.length; i++) {
-
 			aluno[i][3] = aluno[i][1] + aluno[i][2];
 			somaNotasFinais += aluno[i][3];
+			System.out.print("     " + aluno[i][0] + "     |        " + aluno[i][1] + "         |         "
+					+ aluno[i][2] + "          |     " + aluno[i][3] + "\n");
 		}
 
 		mediaNotasFinais = somaNotasFinais / aluno.length;
@@ -47,13 +46,10 @@ public class Exercicio01 {
 				notaFinal = aluno[i][3];
 				alunoMelhorNota = aluno[i][0];
 			}
-
 		}
-
 		System.out.println("Aluno com maior nota final: " + alunoMelhorNota);
 		System.out.println("Média aritmética das notas finais: " + mediaNotasFinais);
 
 		sc.close();
 	}
-
 }
